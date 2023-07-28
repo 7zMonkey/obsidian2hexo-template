@@ -12,12 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
       - name: Call other repository workflow
-          uses: peter-evans/repository-dispatch@v1
-          with:
-            token: ${{ secrets.SERVICE_ACCOUNT_KEY }}
-            repository: ${{ env.OBSIDIAN }}
-            event-type: hexo-template-update
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+          repository: ${{ env.OBSIDIAN }}
+          event-type: hexo-template-update
