@@ -1,0 +1,23 @@
+name: obsidian2hexo-deploy-actions
+# 把 obsidian 转换成博客
+on:
+  push:
+    branches:
+      # 监听 master 分支如果有变动调用当前Actions
+      - main
+env:
+  OBSIDIAN: 7zMonkey/Obsidian
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Call other repository workflow
+          uses: peter-evans/repository-dispatch@v1
+          with:
+            token: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+            repository: ${{ env.OBSIDIAN }}
+            event-type: hexo-template-update
