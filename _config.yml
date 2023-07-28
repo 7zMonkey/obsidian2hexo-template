@@ -116,7 +116,6 @@ feed:
   limit: 0
   content: true
   hub:
-  content:
 # hexo-hide-posts
 hide_posts:
   enable: true
