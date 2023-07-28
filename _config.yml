@@ -149,3 +149,9 @@ neat_js:
     - '**/*.min.js'
     - '**/jquery.fancybox.pack.js'
     - '**/index.js'  
+
+# Mermaid (markdwon to flow chart, seq chart, class chart ...)
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: default
