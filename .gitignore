@@ -1,3 +1,55 @@
-.DS_Store
-*/node_modules/
-*/dist/
+# 忽略生成的静态文件
+public/
+
+# 忽略Hexo的缓存文件
+db.json
+.deploy*/
+.node_modules/
+
+# 忽略Hexo的日志文件
+logs/
+
+# 忽略Hexo的备份文件
+*.bak
+
+# 忽略Hexo的临时文件
+*.tmp
+
+# 忽略Hexo的草稿文件
+drafts/
+
+# 忽略Hexo的部署配置文件
+.deploy*/.deploy*
+
+# 忽略Hexo的本地配置文件
+_config.local.yml
+
+# 忽略Hexo的主题文件夹
+themes/*/node_modules/
+themes/*/bower_components/
+
+# 忽略Hexo的插件文件夹
+node_modules/
+bower_components/
+
+# 忽略Hexo的编辑器配置文件
+.editorconfig
+
+# 忽略Hexo的IDE配置文件
+.idea/
+
+# 忽略Hexo的版本控制文件
+*.swp
+*.swo
+*.log
+*.DS_Store
+Thumbs.db
+
+# 忽略Hexo的临时文件夹
+.temp/
+
+# 忽略Hexo的备份文件夹
+.backup/
+
+# 忽略Hexo的测试文件夹
+test/
