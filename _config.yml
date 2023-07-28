@@ -3,10 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 7zMonkey’ BLOG
+title: 7zMonkey' BLOG
 subtitle: ''
-description: ''
+description: '7zMonkey' BLOG 记录 7zMonkey' 的 BLOG。'
 keywords:
+  - BLOG
+  - 7zMonkey
+  - WEB
 author: 7zMonkey
 language: cmn-Hans
 timezone: ''
@@ -115,3 +118,13 @@ feed:
   limit: 20
   hub:
   content:
+# hexo-hide-posts
+hide_posts:
+  # 可以改成其他你喜欢的名字
+  filter: hidden
+  # 指定你想要传递隐藏文章的位置，比如让所有隐藏文章在存档页面可见
+  # 常见的位置有：index, tag, category, archive, sitemap, feed, etc.
+  # 留空则默认全部隐藏
+  public_generators: []
+  # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+  noindex: true
