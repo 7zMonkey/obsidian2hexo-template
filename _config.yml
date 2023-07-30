@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://www.7zMonkey.tech/
-permalink: :year/:month/:day/:title/
+permalink: blog/:translate_title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -155,3 +155,13 @@ mermaid:
   enable: true
   # Available themes: default | dark | forest | neutral
   theme: default
+# hexo-translate-title
+# https://www.npmjs.com/package/hexo-translate-title
+translate_title:
+  translate_way: baidu_no_appid  # google,youdao,baidu_with_appid,baidu_no_appid
+  youdao_api_key: '' # Your youdao_api_key
+  youdao_keyfrom: xxxx-blog # Your youdao_keyfrom
+  is_need_proxy: false     # true | false
+  proxy_url: http://localhost:50018 # Your proxy_url
+  baidu_appid: '' # Your baidu_appid
+  baidu_appkey: '' # Your baidu_appkey
