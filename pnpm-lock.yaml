@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -30,8 +30,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   hexo-hide-posts:
-    specifier: ^0.2.0
-    version: 0.2.0
+    specifier: ^0.3.1
+    version: 0.3.1
   hexo-neat:
     specifier: ^1.0.9
     version: 1.0.9
@@ -865,8 +865,8 @@ packages:
       hexo-pagination: 3.0.0
     dev: false
 
-  /hexo-hide-posts@0.2.0:
-    resolution: {integrity: sha512-euTftMGCSYkhn/ARVuOv+XQIMNTUy5vCiutaY0qcN92NdZTfPG/wKCkeR3yE7LpMs/Y0aTuEp9F5NUVP/Dt6nA==}
+  /hexo-hide-posts@0.3.1:
+    resolution: {integrity: sha512-0A7rxDcFftdt3NAfNkL29R2BuNFAXgwW5oHwl8vxsULILQW9cwsifZRzRyHIO5YcS6boSrikE17/ILtSMM0UJA==}
     dependencies:
       chalk: 4.1.2
     dev: false
