@@ -111,8 +111,9 @@ deploy:
 # Dependencies: https://github.com/hexojs/hexo-generator-feed
 feed:
   enable: true
-  type: rss2
-  path: feed.xml
+  type: 
+    - atom
+    - rss2
   limit: false
   content: true
   template: 
