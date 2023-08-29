@@ -113,9 +113,11 @@ feed:
   enable: true
   type: atom
   path: feed.xml
-  limit: 0
+  limit: false
   content: true
   hub:
+  template: 
+    - ./source/atom.xml
 # hexo-hide-posts
 hide_posts:
   enable: true
